@@ -14,14 +14,15 @@ public class Lt02_EstRep_ex40 {
         System.out.println("Digite o segundo número: ");
         n2 = scanner.nextInt();
         
-        
         Primos(n1, n2);
+        
+        scanner.close();
         
     }
     
     static void Primos(int n1, int n2){
         
-        int i, j, maior = 0, menor = 0;
+        int i, j, maior = 0, menor = 0, nPrimos = 0;
         
         //primeiro, descobrimos qual o maior numero
         //para saber em qual direção o loop vai menor -> maior
@@ -50,6 +51,8 @@ public class Lt02_EstRep_ex40 {
         
         for(i = menor; i <= maior; i++){
             
+            nPrimos = 0;
+            
             for(j = 2; j < i; j++){
                 
                 if(i % j == 0){
@@ -60,7 +63,10 @@ public class Lt02_EstRep_ex40 {
                 
             }
             
-            if(){
+            if(nPrimos == 0){
+            
+                System.out.println(i+ " é primo");
+            
             }
             
         }
