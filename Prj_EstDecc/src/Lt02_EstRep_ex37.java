@@ -14,6 +14,7 @@ public class Lt02_EstRep_ex37 {
         
         res = Fibonacci(num);
         
+        scanner.close();
         
     }
     

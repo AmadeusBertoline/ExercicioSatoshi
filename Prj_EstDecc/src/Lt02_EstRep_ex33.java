@@ -13,6 +13,8 @@ public class Lt02_EstRep_ex33 {
         
         System.out.println(Serie(num));
         
+        scanner.close();
+        
     }
     
     static int Serie(int num){

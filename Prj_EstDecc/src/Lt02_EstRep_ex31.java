@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 public class Lt02_EstRep_ex31 {
     

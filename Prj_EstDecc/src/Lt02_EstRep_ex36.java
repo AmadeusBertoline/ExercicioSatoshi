@@ -15,6 +15,8 @@ public class Lt02_EstRep_ex36 {
         res = Serie(num);
         
         System.out.println("Resultado da Série: "+res);
+        
+        scanner.close();
      
     }
     

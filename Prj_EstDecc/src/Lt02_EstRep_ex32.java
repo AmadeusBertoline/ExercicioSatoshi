@@ -13,6 +13,8 @@ public class Lt02_EstRep_ex32 {
         
         System.out.println("O fatorial é: " + Fatorial(num));
         
+        scanner.close();
+        
     }
     
     static int Fatorial(int num){

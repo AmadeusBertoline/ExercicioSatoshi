@@ -1,6 +1,3 @@
-import java.math.BigInteger;
-import java.util.Scanner;
-
 public class Lt01_EstRep_ex39 {
 
     public static void main(String[] args){
@@ -10,7 +7,7 @@ public class Lt01_EstRep_ex39 {
         res = Tabuleiro();
         
         System.out.println("A quantidade de grãos no tabuleiro é: " +res);
-    
+        
     }
     
     static long Tabuleiro(){

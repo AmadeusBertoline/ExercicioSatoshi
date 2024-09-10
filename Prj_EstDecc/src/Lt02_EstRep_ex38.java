@@ -30,6 +30,8 @@ public class Lt02_EstRep_ex38 {
         }
         
         System.out.println(maior+ " " +menor);
+        
+        scanner.close();
     }
     
 }

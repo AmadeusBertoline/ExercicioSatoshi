@@ -13,6 +13,8 @@ public class Lt02_EstRep_ex34 {
         
         Tabuada(num);
         
+        scanner.close();
+        
     }
     
     static void Tabuada(int num){

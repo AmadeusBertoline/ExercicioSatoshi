@@ -19,6 +19,8 @@ public class Lt02_EstRep_ex35 {
         
         System.out.println("O resultado da somatória é: "+res);
         
+        scanner.close();
+        
     }
     
     static int SomaImpar(int n1, int n2){
