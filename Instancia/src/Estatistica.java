@@ -1,5 +1,5 @@
 
-class Estatistica {
+public class Estatistica {
 
     int codCidade;
     String nomeCidade;
