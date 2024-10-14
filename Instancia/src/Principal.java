@@ -14,7 +14,7 @@ class Principal {   //  CLASSE PRINCIPAL
 
         // EXECUÇÃO DO MÉTODO CONSTRUTOR
         // LIMPEZA DE VARIÁVEL
-        for (i = 0; i < 10; i++) {
+        for (i = 0; i < 3; i++) {
             estatistica[i] = new Estatistica();
         }
 
